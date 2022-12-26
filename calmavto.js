@@ -31,8 +31,8 @@ if (deliveryRadios[0].checked) {
 
 
 // + стоимость резины
-   const coupon = document.querySelector('input[name="coupon"]');
-   if (coupon.value === "YES") {
+   const wheel = document.querySelector('input[name="wheel"]');
+   if (wheel.value === "YES") {
     sum = sum + 300;
    }
 
