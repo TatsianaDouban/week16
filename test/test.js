@@ -1,20 +1,12 @@
+const left = document.querySelector(".minus");
+const right = document.querySelector (".plus");
+let count = document.querySelector (".result")
 
+right.addEventListener('click', function(){
+    count.value++;
+})
 
+left.addEventListener('click', function(){
+    count.value--;
+})
 
-
-  
-    let num = 0;
-    while (num <= 12) {
-        console.log("num = " + num);
-        num = num + 2;
-    }
-
-    let b = 6;
-    while (b) {
-        console.log("b = " + b);
-        b--;
-    }    
-
-    let m = 6;
-    while (m) console.log("m = " + m--);
-    
