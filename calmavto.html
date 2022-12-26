@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h4>сравним цены 2x моделей Audi</h4>
+        <fieldset>
+            <legend>Выбор машины</legend>
+            <select name="model"> // feed
+                <option value="Q7">Q7</option> monge
+                <option value="Q3">Q3</option> chippo
+            </select>
+            <select name="fuel"> // waight
+                <option value="0">бенз</option>
+                <option value="1">Дизель</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип</legend>
+            <label>
+                <input type="radio" name="delivery" value="pickpoint" checked="chekced" /> БУ
+            </label>
+            <label>
+                <input type="radio" name="delivery" value="address" checked="chekced" /> Новый
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Нужна ли резина</legend>
+            <label>Если да, напишите в поле YES <input type="text" name="coupon" />
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Оформить заказ</legend>
+            <button>Посчитать</button>
+            <div class="result"></div>
+        </fieldset>
+
+    </form>
+
+
+    <script src="calmavto.js"></script>
+</body>
+
+</html>
